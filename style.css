@@ -153,7 +153,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
+    cursor: pointer;
 }
 
 .folder-new-contain span{
@@ -173,6 +173,7 @@ ul{
     width: fit-content;
     border: 1px solid #e6e6e6;
     border-radius: 6px;
+    
 }
 .folder-recent-contain:hover{
     border: 1px solid #19dd12;

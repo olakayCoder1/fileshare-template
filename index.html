@@ -55,26 +55,25 @@
                             Blank
                         </p>
                     </div>
-                    <div class="folder-new-contain">
-                        <a href="">
+                    <div class="folder-new-contain" onclick="addFolderName()">
                             <p class="create-folder">
                                 <!-- <img src="docs-blank-googlecolors.png" alt=""> -->
                             </p>
-                        </a>
                         <p>
                            <span>Folder</span> <i class="fa-regular fa-folder"></i> 
                         </p>
                     </div>
-                    <div class="folder-new-contain">
-                        <a href="">
+                    <div class="folder-new-contain" onclick="addFile()">
                             <p class="create-folder">
                                 <!-- <img src="docs-blank-googlecolors.png" alt=""> -->
                             </p>
-                        </a>
                         <p>
                             <span>File</span> <i class="fa-regular fa-file"></i>
                         </p>
                     </div>
+                    <form enctype="multipart/form-data" method="post" style="display:none ;">
+                        <input type="file" id="file-input-upload">
+                    </form>
                 </div>
             </div>
                  
